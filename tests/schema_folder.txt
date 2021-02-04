@@ -1,0 +1,27 @@
+CREATE TABLE "Retail.Promotions.csv" (
+"marketplace" TEXT,
+  "accessType" TEXT,
+  "numberOfAccesses" INTEGER,
+  "amountTotal" REAL,
+  "amountUsed" REAL,
+  "amountRemaining" REAL,
+  "currencyCode" TEXT,
+  "valid" INTEGER,
+  "active" INTEGER,
+  "accessTransactions" REAL,
+  "creationTime" TEXT,
+  "lastModifiedTime" TEXT,
+  "promotionDescription" TEXT
+)
+CREATE TABLE "Retail.OrdersReturned.2.csv" (
+"Marketplace" TEXT,
+  "ReversalID" TEXT,
+  "OrderID" TEXT,
+  "CreationDate" TEXT,
+  "Quantity" INTEGER,
+  "Currency" TEXT,
+  "ReversalStatus" TEXT,
+  "ReversalAmountState" TEXT,
+  "ReversalReason" TEXT,
+  "DirectDebitRefund" INTEGER
+)
